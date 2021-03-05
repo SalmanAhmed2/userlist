@@ -1,12 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import UserList from './Components/UserList';
-import Test from './Components/Test';
+import UserList from './Components/UserList.jsx';
 
 function App() {
   return (
     <div className="App">
-     {/* <Test/> */}
      <UserList/>
     </div>
   );

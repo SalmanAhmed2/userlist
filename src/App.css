@@ -1,4 +1,12 @@
-
+.App{
+  align-items: center;
+}
+.usersList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .huklGi {
   position: sticky!important;
   width: 40%;
@@ -11,15 +19,19 @@
 .jbjDLF{
 min-height: 10px!important;
 }
-.cLfLqM {
-  font-size: 16px !important;
+.hBLBhZ div:first-child,.bQLtly div:first-child {
+  font-size: 16px;
 }
-.cZPoRV{
-width: 70%!important;
-margin-left: 17%;
+.gAuPhq {
+  width: 60%!important;
 }
 
 .MuiFormControl-root {
-  width: 40%;
-
+  width: 60%;
+}
+.form{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
